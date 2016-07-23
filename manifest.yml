@@ -1,0 +1,8 @@
+---
+applications:
+- name: md-config-t1
+  memory: 512M
+  instances: 1
+  random-route: true
+  path: ./target/md-config-t1-1.0-SNAPSHOT.war
+    
